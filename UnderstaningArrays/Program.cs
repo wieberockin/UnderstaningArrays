@@ -42,7 +42,15 @@ namespace UnderstaningArrays
             Console.ReadLine();
             */
 
+            int[] numbers = new int[] { 4, 8, 15, 16, 23, 42 };
 
+            string[] names = new string[] { "Eddie", "Alex", "Michael", "David Lee" };
+
+            for (int i = 0; i < names.Length; i++)
+            {   
+                Console.WriteLine(names[i])
+            }
+            Console.ReadLine();
 
         }
     }
